@@ -22,12 +22,12 @@
         <v-row class="pt-8">
           <v-col>
             <div class="bounce">
-              <span class="letter"><strong>C</strong></span>
-              <span class="letter"><strong>I</strong></span>
-              <span class="letter"><strong>C</strong></span>
-              <span class="letter"><strong>L</strong></span>
-              <span class="letter"><strong>O</strong></span>
               <span class="letter"><strong>S</strong></span>
+              <span class="letter"><strong>Y</strong></span>
+              <span class="letter"><strong>S</strong></span>
+              <span class="letter"><strong>T</strong></span>
+              <span class="letter"><strong>E</strong></span>
+              <span class="letter"><strong>M</strong></span>
             </div>
           </v-col>
         </v-row>
@@ -36,7 +36,7 @@
             <input type="button"/>
             <div class="fondo2 " >
               <div class="pt-16 imagen">
-                <router-link :to="{ name: 'contenidos' }" class="text-decoration-none routernone mb-4" >
+                <router-link :to="{ name: 'cargarData' }" class="text-decoration-none routernone mb-4" >
                   <v-img class="play mt-10" src="../assets/logo.png"></v-img> 
                 </router-link>
                 <div class="sombra"></div>

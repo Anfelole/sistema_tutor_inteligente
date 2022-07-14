@@ -1,5 +1,6 @@
 <template>
-<div>
+<center>
+<div class="fondo2">
   <pagina-view>
     <h1 class="title">Selecciona tu dataset y luego has click en el boton <b>cargar</b></h1>
     <v-file-input
@@ -23,7 +24,7 @@
       </v-icon>
     </v-btn>
   </pagina-view>
-</div>
+</div></center>
 </template>
 
 <style>
@@ -32,7 +33,13 @@
   font-style: italic;
 }
 
-
+.fondo2{
+  border-radius: 40px ;
+  border: #0f0f0f5d;
+  width: 100%;
+  height: 100%;
+  background: url("https://c4.wallpaperflare.com/wallpaper/676/51/744/face-portrait-digital-art-robot-wallpaper-thumb.jpg"); 
+}
 
 </style>
 

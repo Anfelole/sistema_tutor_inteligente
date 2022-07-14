@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import pantallaEntrada from '../views/EntradaView.vue'
 import cargarData from "@/components/cargarData.vue"
-import Contenidos from "@/components/Contenidos.vue"
-import Evaluacion from "@/components/Evaluacion.vue"
+import entrenamiento from "@/components/entrenamiento.vue"
+import prediccion from "@/components/prediccion.vue"
 
 Vue.use(VueRouter)
 const routes = [
@@ -13,9 +13,9 @@ const routes = [
     component: pantallaEntrada,
   },
   {
-    path: '/contenidos',
-    name: 'contenidos',
-    component: Contenidos
+    path: '/entrenamiento',
+    name: 'entrenamiento',
+    component: entrenamiento
   },
   {
     path: '/cargarData',
@@ -24,9 +24,9 @@ const routes = [
     
   },
   {
-    path: '/evaluacion',
-    name: 'evaluacion',
-    component: Evaluacion
+    path: '/prediccion',
+    name: 'prediccion',
+    component: prediccion
   },
 ]
 

@@ -10,7 +10,7 @@
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Aprendiendo Ciclo For</v-toolbar-title>
+      <v-toolbar-title>COGNITIVE MODEL</v-toolbar-title>
 
       
       <v-spacer></v-spacer>
@@ -28,13 +28,13 @@
 
       <v-btn 
         text
-        to="/contenidos">Contenidos</v-btn>
+        to="/entrenamiento">ENTRENAMIENTO</v-btn>
 
       <v-divider vertical></v-divider>
 
       <v-btn 
         text
-        to="/evaluacion">Evaluacion</v-btn>
+        to="/prediccion">PREDICCION</v-btn>
 
       <v-divider vertical></v-divider>
     </v-toolbar-items>
@@ -72,14 +72,14 @@
               <v-btn 
                 block
                 text
-                to="/contenidos">Contenidos</v-btn>
+                to="/cargarData">CARGAR DATOS</v-btn>
           </v-list-item>
 
           <v-list-item>
               <v-btn 
                 block
                 text
-                to="/cargarData">cargarData</v-btn>
+                to="/entrenamiento">ENTRENAMIENTO</v-btn>
           </v-list-item>
 
           <v-list-item>
@@ -87,7 +87,7 @@
               <v-btn 
                 block
                 text
-                to="/evaluacion">Evaluacion</v-btn>
+                to="/prediccion">PREDICCION</v-btn>
             
           </v-list-item>
 
@@ -124,11 +124,13 @@
 </template>
 
 <style>
+
 #app {
   text-align: center;
   color: #2c3e50;
-  background-image: linear-gradient(135deg, #9558d9 0, #764dd7 25%, #4d42d4 50%, #003ad1 75%, #0034cf 100%);  
-
+  background-image: radial-gradient(circle at 50% -20.71%, #1010dc 0, #1d6185 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
+   width: wrap-content;
+  height: wrap-content;
 }
  
 nav {
@@ -142,6 +144,7 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+  
 }
 .color{
 background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
