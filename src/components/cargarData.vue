@@ -1,7 +1,10 @@
 <template>
-<center>
-<div class="fondo2">
+   
   <pagina-view>
+    <div class="fondoMain">
+    <center>
+    <div class="fondoData">
+    <br><br><br>
     <h1 class="title">Selecciona tu dataset y luego has click en el boton <b>cargar</b></h1>
     <v-file-input
     accept=".csv"
@@ -23,22 +26,33 @@
         mdi-cloud-upload
       </v-icon>
     </v-btn>
+    
+    </div>
+    </center>
+    </div>
   </pagina-view>
-</div></center>
+  
+
+
 </template>
 
 <style>
+
+
+
 .title{
   color: aliceblue;
   font-style: italic;
 }
 
-.fondo2{
+.fondoData{
   border-radius: 40px ;
   border: #0f0f0f5d;
-  width: 100%;
-  height: 100%;
-  background: url("https://c4.wallpaperflare.com/wallpaper/676/51/744/face-portrait-digital-art-robot-wallpaper-thumb.jpg"); 
+  width: 20rem;
+  height: 24rem;
+  background: #4d4f53a4; 
+  
+  
 }
 
 </style>

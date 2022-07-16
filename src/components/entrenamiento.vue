@@ -1,8 +1,11 @@
 <template>
-<div>
+
   <pagina-view>
-    
     <center>
+    <div class="contenido">
+    
+
+        
 
     <div class="atom" v-if="loading">
         <div class="electron"></div>
@@ -11,7 +14,7 @@
     </div>
     <br>
    
-    </center>
+    
 
    
     <br><br>
@@ -34,10 +37,10 @@ v-if="loading"
   type="success"
 >El modelo ha sido entrenado satisfactoriamente</v-alert>
 
-
-
-  </pagina-view>
 </div>
+</center>
+  </pagina-view>
+
 </template>
 
 <script>
@@ -71,6 +74,8 @@ export default {
 </script>
 
 <style>
+
+
 :root {
     --atom-size: 180px;
     --atom-color-hex: #0e019a;
@@ -104,7 +109,13 @@ export default {
     100% {  transform: rotate(-360deg) scale(1); }
 }
 
-
+.contenido{
+    border-radius: 40px ;
+  border: #0f0f0f5d;
+  width: 20rem;
+  height: 24rem;
+  background: #4d4f53a4; 
+}
 
 /* Nucleus */
 .atom::before {

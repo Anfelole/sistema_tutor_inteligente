@@ -1,8 +1,11 @@
 <template>
-  <div>
+  
     <pagina-view>
-      
+   
+    
 <template>
+  <center>
+  <div class='prediccion'>
   <v-form v-model="valid">
     <v-container>
       <v-row>
@@ -62,8 +65,6 @@
     </v-container>
   </v-form>
 
-
-
       <v-btn
       :loading="loading"
       :disabled="loading"
@@ -93,7 +94,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr
+        <tr class="text-center"
           v-for="item in resultados"
           :key="item.flor"
         >
@@ -103,15 +104,26 @@
       </tbody>
     </template>
   </v-simple-table>
-
+</div>
+</center>
 </template>
+
+
+
     </pagina-view>
-  </div>
+
 
 </template>
 
 <style>
 
+.prediccion{
+  border-radius: 40px ;
+  border: #0f0f0f5d;
+  width: 50rem;
+  height: 20rem;
+  background: #4d4f53a4; 
+}
 
 </style>
 

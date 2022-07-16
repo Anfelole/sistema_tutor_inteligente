@@ -128,7 +128,7 @@
 #app {
   text-align: center;
   color: #2c3e50;
-  background-image: radial-gradient(circle at 50% -20.71%, #1010dc 0, #1d6185 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
+  background-image: url("https://www.xtrafondos.com/wallpapers/espiral-tecnologico-4564.jpg");
    width: wrap-content;
   height: wrap-content;
 }
